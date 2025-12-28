@@ -8,6 +8,7 @@ This project uses a Support Vector Machine (SVM) classifier to train on the PIMA
 - **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn  
 - **Algorithm:** Support Vector Machine (SVM)  
 - **Environment:** Google Colab / Jupyter Notebook
+- **Deployment:** Streamlit
 
 📊 Dataset
 - Dataset used: **PIMA Indians Diabetes Dataset**  
@@ -36,11 +37,21 @@ This project uses a Support Vector Machine (SVM) classifier to train on the PIMA
 📈 Model Performance
 Accuracy ~77-78%
 
-🔮 Future Improvements
+🚀 How to Run the Project
+  pip install -r requirements.txt
+  streamlit run Diabetes_Pred_App.py 
 
--Experiment with ensemble models like Random Forest or XGBoost
--Hyperparameter tuning using GridSearchCV
--Build a web app using Flask or Streamlit for interactive predictions
--Implement cross-validation for more robust evaluation
+**Future Improvements**
 
-This project is ideal for beginners and intermediate learners looking to understand end-to-end ML project development, from data processing to deployment-ready predictive models.
+- Experiment with ensemble models such as Random Forest and XGBoost
+- Perform hyperparameter tuning using GridSearchCV
+- Implement cross-validation for better generalization
+- Enhance the Streamlit UI for improved user experience
+- Deploy the application on Streamlit Cloud or Render
+
+**Key Learning Outcomes**
+
+- Understanding of end-to-end machine learning workflow
+- Hands-on experience with data preprocessing and model evaluation
+- Practical implementation of SVM for binary classification
+- Introduction to deploying ML models using Streamlit
